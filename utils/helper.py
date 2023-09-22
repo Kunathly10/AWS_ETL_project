@@ -1,12 +1,10 @@
 import boto3
-
-access_key = 'AKIA4NRIXPCI2ICIZZ7I'
-
-secret_key = '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'
-
-region = 'eu-west-1'
-
-bucket_name = 'payyminnute'
+from configparser import ConfigParser
+config = ConfigParser()
+region = config['AWS']['region']
+bucket_name =config['AWS']['bucket_name']
+access_key = config['AWS']['access_key']
+secret_key = config['AWS']['secret_key']
 
 
 def create_bucket():

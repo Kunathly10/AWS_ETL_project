@@ -24,7 +24,7 @@ from utils.helper import create_bucket
 create_bucket()
 
 # Step 2: Extract from database (postgresql) to data lake (S3)
-conn = create_engine('postgresql+psycopg2://kunathly10:iPhone11*@localhost:5432/payminute')
+conn = create_engine('postgresql+psycopg2://{user}:{password}*@localhost:5432/{database}')
 from utils.constant import db_tables
 s3_path = 's3://{}/{}.csv'
 

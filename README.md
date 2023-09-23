@@ -79,6 +79,5 @@ The provided code snippet serves as a demonstration of the data extraction and l
 
 Please note that the code presented here is a partial representation, and a comprehensive project implementation would entail additional components for data transformation, loading into a star schema, and scheduling ETL jobs as needed.
 
----
 
-Your README should now provide a detailed overview of your project. Feel free to further customize and add more details as needed. Good luck with your project documentation!
+---
